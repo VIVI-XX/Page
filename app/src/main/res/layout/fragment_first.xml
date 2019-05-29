@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="▲图示："
+            android:textColor="@color/gray"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="395dp"
+            android:layout_height="172dp"
+            android:cropToPadding="false"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/huoguo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="▲简介："
+            android:textColor="@color/gray"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:text="         火锅在川渝地区，说吃火锅，那是最正经的：红锅翻浪，白锅陪衬，尽是一番美味。重庆火锅汤底，牛油普遍更厚，讲究的店，下锅之前，要一大块牛油给客人过目，方才下得去；滴在桌布上，须臾便凝结为蜡状；所以在重庆红锅里吃蔬菜，是件极考验技巧的事：一来蔬菜吸油，二来容易夹杂花椒；一筷蔬菜，可能比一筷肉都厚腻。"
+            android:textSize="10sp"
+            tools:ignore="RtlCompat" />
+
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

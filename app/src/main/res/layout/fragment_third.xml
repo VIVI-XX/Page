@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="▲图示："
+            android:textColor="@color/gray"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="395dp"
+            android:layout_height="172dp"
+            android:cropToPadding="false"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/maocai" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="▲简介："
+            android:textColor="@color/gray"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="25dp"
+            android:textAlignment="textStart"
+            android:text="         冒菜是成都的传统名小吃，一般的吃法是准备一锅麻辣鲜香的汤汁，把菜用一个竹勺装好，一般一勺就是一份。在锅里煮熟，然后盛到碗里，顺便再舀一勺汤汁，加入老板调制的各种调料。当然，冒菜没有像火锅那样有大块的牛油下锅，是可以连汤一起吃的。其风靡程度可以称之为具有四川特色的快餐。"
+            android:textSize="10sp"
+            tools:ignore="RtlCompat" />
+
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
